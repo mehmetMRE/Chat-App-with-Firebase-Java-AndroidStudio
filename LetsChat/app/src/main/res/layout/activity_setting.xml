@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center_vertical"
+    android:gravity="start"
+    android:orientation="vertical"
+    tools:context=".SettingActivity"
+    android:background="#CEBDC4EA">
+
+
+
+
+  <ImageView
+      android:id="@+id/save"
+      android:layout_width="50dp"
+      android:layout_height="50dp"
+      android:layout_marginStart="340dp"
+      android:background="@drawable/setting_tick"
+      app:tint="@color/white" />
+
+  <de.hdodenhof.circleimageview.CircleImageView
+
+      android:id="@+id/setting_image"
+      android:layout_width="96dp"
+      android:layout_height="96dp"
+      android:layout_gravity="center"
+      android:src="@drawable/settingprofile"
+      android:layout_marginTop="20dp"/>
+  <EditText
+      android:id="@+id/setting_name"
+      android:layout_width="match_parent"
+      android:gravity="center"
+      android:textSize="20sp"
+      android:textStyle="bold"
+      android:text="Lets Chat"
+      android:padding="5dp"
+      android:layout_height="wrap_content"
+      android:background="@drawable/shape_item"
+      android:layout_marginTop="20dp"
+
+      />
+  <EditText
+      android:id="@+id/setting_status"
+      android:layout_width="match_parent"
+      android:gravity="center"
+      android:textSize="15sp"
+      android:textStyle="normal"
+      android:text="Merhaba Ben Lets Chat Kullanıyorum"
+      android:layout_height="wrap_content"
+      android:background="@drawable/shape_item"
+      android:padding="10dp"
+      android:layout_marginTop="20dp"
+
+      />
+  <EditText
+      android:layout_width="match_parent"
+      android:layout_height="50dp"
+      android:layout_marginTop="350dp"
+      android:gravity="center"
+      android:padding="5dp"
+      android:text="Profili Düzenle"
+      android:textSize="20sp"
+      android:textStyle="bold"
+
+      />
+
+</LinearLayout>

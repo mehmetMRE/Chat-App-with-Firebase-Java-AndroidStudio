@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="180dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_margin="10dp"
+    android:orientation="vertical"
+    android:background="@drawable/shape_dialog"
+    android:gravity="center"
+    android:layout_gravity="center"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView
+        android:layout_width="55dp"
+        android:layout_height="55dp"
+        android:src="@drawable/power_buton"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Çıkış yapmak \n istiyor musunuz ?"
+        android:layout_marginTop="10dp"
+        android:fontFamily="sans-serif"
+        android:textSize="13sp"
+        android:gravity="center"
+        />
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/noBtn"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:gravity="center"
+            android:layout_margin="10dp"
+            android:background="#ECB8C9"
+            android:layout_height="25dp"
+            android:text="Hayır"/>
+        <TextView
+            android:id="@+id/yesBtn"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_margin="10dp"
+            android:text="Evet"
+            android:gravity="center"
+            android:background="#738DCD"
+            android:textColor="@color/white"
+            android:layout_height="25dp"/>
+
+    </LinearLayout>
+
+</LinearLayout>
